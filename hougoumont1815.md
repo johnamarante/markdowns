@@ -1,4 +1,3 @@
-
 ## Hougoumont 1815 Tabletop Miniatures Game Rules
 
 ### 1. Game Phases
@@ -12,6 +11,7 @@
 ### 2. Movement
 - **Infantry**: 8 inches per turn.
 - **Light Infantry**: 8 inches per turn; no movement penalty in woods.
+- **Line Infantry**: 6 inches per turn in woods; 8 inches per turn elsewhere.
 - **Artillery**: 4 inches per turn; cannot enter woods.
 - **Cavalry**: 16 inches per turn; cannot enter woods.
 - **Charge Bonus**: +2 inches for infantry, +4 inches for cavalry.
@@ -49,6 +49,11 @@
 #### 3.3. Prohibited Actions
 - **Artillery Firing into Melee**: Artillery units are prohibited from firing into ongoing melee engagements to prevent friendly fire casualties.
 
+#### 3.4. Flanking
+- A unit is considered flanked if attacked from the side or rear.
+- Flanked units must take an immediate morale check with a -3 modifier.
+- Flanking attacks bypass cover bonuses for the flanked unit.
+
 ### 4. Melee
 #### 4.1. Melee Engagement
 - Each figure rolls a D20.
@@ -84,8 +89,10 @@
 - **If a unit fails a morale check**:
   - **Retreat**: The unit must immediately move 8 inches away from the enemy and take no further action this turn.
   - **Rally Attempt**: In the next Give Orders phase, the unit may attempt to rally by rolling a D20. If the roll is successful (meeting or exceeding the morale threshold), the unit rallies and can act normally. If it fails, it continues to retreat 8 inches per turn until it rallies or exits the battlefield.
+  - **Shattered**: If a unit that has failed a morale check takes another hit before successfully rallying, it is shattered and removed from the game.
 
-### 6. Special Rules for Buildings
+### 6. Special Rules
+#### 6.1. Buildings
 - Artillery against buildings needs additional 9 points on 3D20 to penetrate.
 - Building fire chance: 1/3 on D6 (5 or 6 means fire).
 - Howitzer fire:
@@ -94,9 +101,16 @@
   - Subsequent hits calculate regular howitzer damage.
   - Apply building fire check.
 
+#### 6.2. Light Infantry in Skirmish Formation
+- **Movement**: Light infantry in skirmish formation can move 8 inches per turn, ignoring terrain penalties (including woods).
+- **Cover Bonus**: Light infantry in skirmish formation receive an additional +2 to their D20 roll to hit them.
+- **Firing**: Light infantry in skirmish formation can spread out and fire more effectively:
+  - Each figure rolls a D20 with a +1 modifier.
+  - Light Infantry: +2 to D20 roll, total of +3 in skirmish formation.
+
 ### 7. Summary
 - **Phases**: Give Orders, Movement, Firing, Melee, Morale Check, Repeat.
-- **Movement**: Infantry 8 inches, Light Infantry 8 inches, Artillery 4 inches, Cavalry 16 inches.
+- **Movement**: Infantry 8 inches, Light Infantry 8 inches, Line Infantry 6 inches in woods, Artillery 4 inches, Cavalry 16 inches.
 - **Firing**: D20 roll for small arms, 3D20 for artillery, 2D6 for howitzer.
 - **Melee**: D20 roll per figure with modifiers.
 - **Morale**: D20 roll with modifiers based on unit experience.
